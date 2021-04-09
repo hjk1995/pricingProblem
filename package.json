@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha tests --recursive --watch",
-    "installDep": "npm run install && npm link --force"
+    "installDep": "npm install && npm link --force"
   },
   "bin": {
     "run": "./index.js"
